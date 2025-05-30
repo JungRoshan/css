@@ -1,0 +1,21 @@
+/* set h2 as inline element althrough its block element using display property */
+h2{
+    display:inline;
+    background-color: pink;
+}
+/* changing inline element to block elementusing display property */
+#inline{
+
+    display: block;
+    background-color: aliceblue;
+}
+#inline{
+    /* background-color: lime; */
+    border: 2px solid black;
+    /* h&w is not set in span */
+    height: 100px;
+    width: 200px;
+    /* p & m is set to l and r not t and b */
+    padding: 50px;
+    margin: 20px;
+}
