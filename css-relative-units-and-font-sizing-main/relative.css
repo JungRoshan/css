@@ -1,0 +1,20 @@
+h1{
+    border: 2px solid  black;
+    /* set width of h1 relative to parent element (i.e body that takes full width of screen ) */
+    width: 33.33%; 
+} 
+#outer{
+    height: 400px;
+    width: 300px;
+    background-color: pink;
+    margin: 50px;
+
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+   /* set margin-left relative to width of parent element */
+    margin-left: 10%;
+}
+

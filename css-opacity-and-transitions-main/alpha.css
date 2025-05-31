@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    /*  alpha manipulate only color .set alpha ranfges from0 to 1 */
+    background-color: rgba(202, 181, 181, 0.347);
+    /* alpha in hex form */
+    background-color: #4dff00a0;
+}
+#opacity{
+    /* opaity manipulate other elemnts too .i,e headings will be disapperar when opacity=0 */
+    background-color: #ffa511;
+    opacity: 0.5;
+}

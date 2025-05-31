@@ -1,0 +1,16 @@
+/* all will we yellow as all inherit property from div */
+div{
+    background-color: yellow;
+}
+/* label inherit css properrty applied to its parents ,if not then inherit it from grandparents */
+form{
+    background-color: red;
+}
+/* input boxes and button by default cant inherit css property from anchestors and parents */
+/* so must include inherit declaration with property */
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
