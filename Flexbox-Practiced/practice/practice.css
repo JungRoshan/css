@@ -1,0 +1,46 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 400px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* qno.2 */
+
+#nav-bar{
+    height: 50px;
+    width: 900px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-content: center;
+
+}
+
+.option{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    /* border: 2px solid black;and try you wuill get idea  */
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 50px;
+}
