@@ -1,0 +1,47 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    /* using grid provides space equally divided between elements */
+    display: grid;
+    /* now lets create grid. remember you will only see  when you inspect */
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px;
+    /* alternate form of writing  
+    
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
+    
+   */
+
+    /* grid gaps */
+    row-gap: 10px;
+    column-gap: 10px;
+    /* alignments of items along  horizontally. for this make width and height of items visible   */
+    justify-items: center;
+   /* alignments of items along vertically */
+    align-items: center;
+
+}
+
+
+.item{
+    
+    /* hiding h and width will allow comtained whole cell by items or contents /fitin exactly
+         height: 50px;
+         width: 100px;
+    */
+   
+    background-color: green;
+    border: 2px solid black;
+    text-align: center;
+
+    display: ;
+
+}
+/*grid columns and grid rows  */
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
