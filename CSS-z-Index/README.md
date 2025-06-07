@@ -10,7 +10,6 @@ I created two colorful boxes that overlap each other:
 - A cool aqua box (using class `.A`)
 - A warm salmon box (using class `.B`)
 
-## The Aha Moments 💡
 
 1. **The Default Behavior**:
    Normally, whatever comes *last* in the HTML sits on top (like the salmon box would naturally cover the aqua one)
