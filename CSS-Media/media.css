@@ -1,0 +1,31 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* rememnber for this result you must inspect and decrese wisth to 400px */
+@media(width:400px){
+    h1{
+      background-color: red;  
+      color: white;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+    }
+}
+/* this set automatically as  its given width more than listed width and also acc to priority */
+ @media(min-width:400px){
+    h1{
+          background-color: purple;  
+          color: white;
+    }
+} 
+/* orienatation of viewport . use inspect*/
+@media(orientation:landscape){
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}
